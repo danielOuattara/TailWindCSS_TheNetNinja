@@ -1,0 +1,16 @@
+{
+  "name": "_01_intro_tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "buildcss": "tailwindcss build ./src/style.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "Daniel.B OUATTARA <daniel.ouattara@gmx.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
